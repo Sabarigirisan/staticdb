@@ -1,0 +1,87 @@
+[
+detailsInfo: {
+      title: "",
+      description: "",
+      timeline: {
+        selectedStartDate: new Date(),
+        selectedEndDate: new Date()
+      }
+    },
+    servicesInfo: {
+      serviceType: {
+        generalServices: [
+          { id: "GS-01", serviceName: "Inside painting", isSelected: false },
+          { id: "GS-02", serviceName: "Outside painting", isSelected: false },
+          { id: "GS-03", serviceName: "Plaster", isSelected: false },
+          { id: "GS-04", serviceName: "Apartment vist", isSelected: false },
+          { id: "GS-05", serviceName: "Urgent call", isSelected: false }
+        ],
+        cleaningServices: "Cleaning services will be provided shortly.",
+        InstallationServices: "Cleaning services will be provided shortly.",
+        plumbingServices: "Cleaning services will be provided shortly.",
+        paintingServices: "Cleaning services will be provided shortly.",
+        otherServices: "Other services will be provided shortly."
+      },
+      selectedServiceList: []
+    },
+    locationInfo: {
+      savedLocationList: [
+        {
+          locationName: "Home",
+          locationAddress: {
+            street: "1990, Avenue Southcliffe",
+            city: "Montreal",
+            state: "Quebec",
+            postalCode: "H8Y88F"
+          }
+        },
+        {
+          locationName: "Office",
+          locationAddress: {
+            street: "1991, St Patrick Street",
+            city: "Montreal",
+            state: "Quebec",
+            postalCode: "H5T7U9"
+          }
+        }
+      ],
+      selectedLocation: [
+        {
+          locationName: "Home",
+          locationAddress: {
+            street: "1990, Avenue Southcliffe",
+            city: "Montreal",
+            state: "Quebec",
+            postalCode: "H8Y88F"
+          }
+        }
+      ]
+    },
+    contactInfo: {
+      savedContactList: [
+        {
+          name: "Sahaya",
+          email: "sahaya@ba.com",
+          phone: "+1-000-000-0000",
+          language: "En",
+          availability: "Weekends"
+        },
+        {
+          name: "Jack",
+          email: "jack@ba.com",
+          phone: "+1-000-000-0000",
+          language: "Fr",
+          availability: "Weekends"
+        }
+      ],
+      selectedContact: [
+        {
+          name: "Sahaya",
+          email: "sahaya@ba.com",
+          phone: "+1-000-000-0000",
+          language: "En",
+          availability: "Weekends"
+        }
+      ]
+    }
+]
